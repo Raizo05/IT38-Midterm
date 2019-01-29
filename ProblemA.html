@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<body>
+	<p><input type="text" value="" id="in" placeholder="input number here"></p>
+	<p><button onclick="clr()">Clr</button>
+	<button onclick="del()">Del</button>
+	<button value="^" onclick="btnclick(this.value)">^</button>
+	<button value="%" onclick="btnclick(this.value)">%</button></p>
+	<p><button value="7" onclick="btnclick(this.value)">7</button>
+	<button value="8" onclick="btnclick(this.value)">8</button>
+	<button value="9" onclick="btnclick(this.value)">9</button>
+	<button value="/" onclick="btnclick(this.value)">/</button></p>
+	<p><button value="4" onclick="btnclick(this.value)">4</button>
+	<button value="5" onclick="btnclick(this.value)">5</button>
+	<button value="6" onclick="btnclick(this.value)">6</button>
+	<button value="*" onclick="btnclick(this.value)">*</button></p>
+	<p><button value="1" onclick="btnclick(this.value)">1</button>
+	<button value="2" onclick="btnclick(this.value)">2</button>
+	<button value="3" onclick="btnclick(this.value)">3</button>
+	<button value="+" onclick="btnclick(this.value)">+</button></p>
+	<button value="." onclick="btnclick(this.value)">.</button>
+	<button value="0" onclick="btnclick(this.value)">0</button>
+	<button value="-" onclick="btnclick(this.value)">-</button>
+	<button onclick="equ()">=</button>
+
+	<style type="text/css">
+	button{
+		height: 30px;
+		width: 30px;
+		text-align: center;
+	}
+	input{
+		text-align: right;
+		width: 130px;
+	}
+	</style>
+	<script type="text/javascript" src="ProblemA.js"></script>
+</body>
+</html>
